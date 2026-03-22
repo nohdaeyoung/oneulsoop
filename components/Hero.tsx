@@ -16,7 +16,7 @@ export default function Hero() {
 
         {/* 서브카피 */}
         <p className="font-sans text-lg text-secondary leading-relaxed max-w-xl mx-auto mb-12">
-          오늘감으로 매일의 감정을 기록하세요.
+          오늘감으로 매일의 감정을 기록하세요. <br />
           쌓인 감정의 결이 글숲에서 나만의 글쓰기로 피어납니다.
         </p>
 

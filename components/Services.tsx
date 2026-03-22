@@ -43,7 +43,7 @@ export default function Services() {
             </div>
 
             <p className="font-sans text-secondary text-sm leading-relaxed mb-6">
-              매일 쓰는 일기가 나를 이해하는 거울이 됩니다.
+              매일 쓰는 일기가 나를 이해하는 거울이 됩니다.<br />
               AI가 감정을 분석하고, 따뜻한 위로와 통찰을 건넵니다.
             </p>
 
@@ -79,7 +79,7 @@ export default function Services() {
             </div>
 
             <p className="font-sans text-secondary text-sm leading-relaxed mb-6">
-              쌓인 글 속에서 나만의 문체와 감정 DNA를 발견합니다.
+              쌓인 글 속에서 나만의 문체와 감정 DNA를 발견합니다.<br />
               오늘감과 연동하면 일기가 글쓰기의 씨앗이 됩니다.
             </p>
 

@@ -24,7 +24,7 @@ export default function CTASection() {
           <div className="bg-amber-light rounded-2xl p-6 text-center border border-amber-muted">
             <p className="font-serif text-lg font-medium text-primary mb-2">감정부터 시작하기</p>
             <p className="font-sans text-sm text-secondary mb-5 leading-relaxed">
-              오늘 하루의 감정을 기록하는 것부터.
+              오늘 하루의 감정을 기록하는 것부터.<br />
               오늘감은 무료로 시작할 수 있습니다.
             </p>
             <a
@@ -40,7 +40,7 @@ export default function CTASection() {
           <div className="bg-forest-light rounded-2xl p-6 text-center border border-forest-muted">
             <p className="font-serif text-lg font-medium text-primary mb-2">글쓰기로 바로 가기</p>
             <p className="font-sans text-sm text-secondary mb-5 leading-relaxed">
-              이미 글을 쓰고 계신가요?
+              이미 글을 쓰고 계신가요?<br />
               글숲에서 나의 문체 DNA를 발견해보세요.
             </p>
             <a
