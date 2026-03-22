@@ -92,14 +92,24 @@ export default function Services() {
               ))}
             </ul>
 
-            <a
-              href="https://soop.324.ing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-forest font-sans text-sm font-medium hover:gap-2.5 transition-all"
-            >
-              글숲 둘러보기 <span aria-hidden="true">→</span>
-            </a>
+            <div className="flex flex-col gap-1">
+              <a
+                href="https://soop.324.ing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-forest font-sans text-sm font-medium hover:gap-2.5 transition-all"
+              >
+                글숲 둘러보기 <span aria-hidden="true">→</span>
+              </a>
+              <a
+                href="https://agent.324.ing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-sans text-xs text-muted hover:text-forest transition-colors"
+              >
+                쇼케이스 미리보기 →
+              </a>
+            </div>
           </div>
         </div>
       </div>

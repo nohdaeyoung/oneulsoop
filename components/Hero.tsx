@@ -31,15 +31,25 @@ export default function Hero() {
             오늘감 시작하기
             <span aria-hidden="true">→</span>
           </a>
-          <a
-            href="https://soop.324.ing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-forest text-forest font-sans text-sm font-medium hover:bg-forest-light transition-all"
-          >
-            글숲 둘러보기
-            <span aria-hidden="true">→</span>
-          </a>
+          <div className="flex flex-col items-center gap-1">
+            <a
+              href="https://soop.324.ing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-forest text-forest font-sans text-sm font-medium hover:bg-forest-light transition-all"
+            >
+              글숲 둘러보기
+              <span aria-hidden="true">→</span>
+            </a>
+            <a
+              href="https://agent.324.ing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-sans text-xs text-muted hover:text-forest transition-colors"
+            >
+              쇼케이스 미리보기 →
+            </a>
+          </div>
         </div>
 
         {/* 배경 장식 */}

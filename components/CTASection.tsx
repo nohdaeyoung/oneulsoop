@@ -43,14 +43,24 @@ export default function CTASection() {
               이미 글을 쓰고 계신가요?<br />
               글숲에서 나의 문체 DNA를 발견해보세요.
             </p>
-            <a
-              href="https://soop.324.ing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-forest text-white font-sans text-sm font-medium hover:bg-forest/90 transition-colors"
-            >
-              글숲 둘러보기 →
-            </a>
+            <div className="flex flex-col items-center gap-1.5">
+              <a
+                href="https://soop.324.ing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-forest text-white font-sans text-sm font-medium hover:bg-forest/90 transition-colors"
+              >
+                글숲 둘러보기 →
+              </a>
+              <a
+                href="https://agent.324.ing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-sans text-xs text-muted hover:text-forest transition-colors"
+              >
+                쇼케이스 미리보기 →
+              </a>
+            </div>
           </div>
         </div>
       </div>
