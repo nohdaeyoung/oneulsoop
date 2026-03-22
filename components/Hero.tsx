@@ -22,15 +22,25 @@ export default function Hero() {
 
         {/* CTA 버튼 2개 */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
-            href="https://g.324.ing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-amber text-white font-sans text-sm font-medium hover:bg-amber/90 transition-all shadow-sm hover:shadow-md"
-          >
-            오늘감 시작하기
-            <span aria-hidden="true">→</span>
-          </a>
+          <div className="flex flex-col items-center gap-1">
+            <a
+              href="https://g.324.ing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-amber text-white font-sans text-sm font-medium hover:bg-amber/90 transition-all shadow-sm hover:shadow-md"
+            >
+              오늘감 시작하기
+              <span aria-hidden="true">→</span>
+            </a>
+            <a
+              href="https://g.324.ing/showcase"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-sans text-xs text-muted hover:text-amber transition-colors"
+            >
+              쇼케이스 미리보기 →
+            </a>
+          </div>
           <div className="flex flex-col items-center gap-1">
             <a
               href="https://soop.324.ing"
