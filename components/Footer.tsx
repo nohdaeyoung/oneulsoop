@@ -10,7 +10,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-8 font-sans text-sm text-secondary">
             <a
-              href="https://oneulgam.com"
+              href="https://g.324.ing"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-amber transition-colors flex items-center gap-1.5"
@@ -19,7 +19,7 @@ export default function Footer() {
               오늘감
             </a>
             <a
-              href="https://geulsegye.com"
+              href="https://soop.324.ing"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-forest transition-colors flex items-center gap-1.5"

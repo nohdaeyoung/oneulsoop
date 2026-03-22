@@ -7,7 +7,7 @@ export default function Nav() {
         </span>
         <div className="flex items-center gap-6 text-sm text-secondary">
           <a
-            href="https://oneulgam.com"
+            href="https://g.324.ing"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-amber transition-colors"
@@ -15,7 +15,7 @@ export default function Nav() {
             오늘감
           </a>
           <a
-            href="https://geulsegye.com"
+            href="https://soop.324.ing"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-forest transition-colors"

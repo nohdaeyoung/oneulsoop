@@ -28,7 +28,7 @@ export default function CTASection() {
               오늘감은 무료로 시작할 수 있습니다.
             </p>
             <a
-              href="https://oneulgam.com"
+              href="https://g.324.ing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-amber text-white font-sans text-sm font-medium hover:bg-amber/90 transition-colors"
@@ -44,7 +44,7 @@ export default function CTASection() {
               글숲에서 나의 문체 DNA를 발견해보세요.
             </p>
             <a
-              href="https://geulsegye.com"
+              href="https://soop.324.ing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-forest text-white font-sans text-sm font-medium hover:bg-forest/90 transition-colors"

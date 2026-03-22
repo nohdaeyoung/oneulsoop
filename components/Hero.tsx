@@ -23,7 +23,7 @@ export default function Hero() {
         {/* CTA 버튼 2개 */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://oneulgam.com"
+            href="https://g.324.ing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-amber text-white font-sans text-sm font-medium hover:bg-amber/90 transition-all shadow-sm hover:shadow-md"
@@ -32,7 +32,7 @@ export default function Hero() {
             <span aria-hidden="true">→</span>
           </a>
           <a
-            href="https://geulsegye.com"
+            href="https://soop.324.ing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-forest text-forest font-sans text-sm font-medium hover:bg-forest-light transition-all"

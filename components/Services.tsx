@@ -57,7 +57,7 @@ export default function Services() {
             </ul>
 
             <a
-              href="https://oneulgam.com"
+              href="https://g.324.ing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-amber font-sans text-sm font-medium hover:gap-2.5 transition-all"
@@ -93,7 +93,7 @@ export default function Services() {
             </ul>
 
             <a
-              href="https://geulsegye.com"
+              href="https://soop.324.ing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-forest font-sans text-sm font-medium hover:gap-2.5 transition-all"
