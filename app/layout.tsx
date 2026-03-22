@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Serif_KR, Noto_Sans_KR } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const notoSerif = Noto_Serif_KR({
@@ -78,6 +79,20 @@ export default function RootLayout({
       lang="ko"
       className={`${notoSerif.variable} ${notoSans.variable}`}
     >
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-353CWTDQPS"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-353CWTDQPS');
+          `}
+        </Script>
+      </head>
       <body className="min-h-screen flex flex-col bg-cream text-primary antialiased">
         {children}
       </body>
